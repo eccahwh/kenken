@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KenKen</title>
+
+
+<!-- fonts -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet">
+
+  <script>
+    (function(d) {
+      var config = {
+        kitId: 'thi7vnt',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
+
+
+</head>
+
+<body>
+  
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <df-messenger chat-icon="./images/kenken2.png" chat-title="kenken" intent="WELCOME"
+    agent-id="fa3897eb-30f5-42da-9ef3-c3b109c04a02" language-code="ja" wait-open="true"></df-messenger>
+  
+  <div class="parallax">
+  <div class="title">
+    <h1>新時代ペットが</h1>
+    
+    <div class="tanjou">
+      <p>誕</p>
+      <img src="images/kenken_hp_nohand.png">
+      <p>生</p>
+      
+    </div>
+  </div>
+  </div>
+
+  <div class="glass">
+
+    <div class="tanjou-hand">
+      <img src="images/kenken_hp_hand.png" alt="">
+    </div>
+    <div class="glass-img">
+      <img src="./images/glass.png" alt="" >
+    </div>
+    <div class="glass-text">
+      <h3><strong>わんちゃん！</strong>ではなく</h3>
+      <h3><strong>ロボット！</strong>でもなく</h3>
+      <h1>わんちゃんロボットです！</h1>
+    </div>
+  </div>
+
+  <div class="features">
+    <h1>features</h1>
+    <ul>
+      <li>
+        <img src="/images/feature1.png" alt="">
+        <div class="feature-details">
+        <dt><strong>トリック</strong>が上手！</dt>
+        <dd>kenkenに命令してあげたら、いつも従ってくれる！なかなか賢くて可愛いわんちゃんでああります〜</dd>
+        </div>
+      </li>
+      <li>
+        <div class="feature-details">
+        <dt><strong>ジャンケン</strong>も？！</dt>
+        <dd>わんちゃんが普通できないものはkenkenならできる！果たしてあなたはkenkenに勝てることはできるのか？！
+      </dd>
+      </div>
+      <img src="/images/feature2.png" alt="">
+    </li>
+      <li>
+        <img src="/images/feature3.png" alt="">
+        <div class="feature-details">
+          <dt><strong>話相手</strong>になれる！</dt>
+          <dd>最近の出来事や悩み事があればkenkenにいつでも相談できます！わんちゃんなりに癒しさをあげて楽しく会話してね〜</dd>
+        </div>
+      </li>
+    </ul>
+    <h3>・</h3>
+    <h3>・</h3>
+    <h3>・</h3>
+    <h3>それ以外もいっぱい機能が<br>ついております！</h3>
+    <h3>お試してみてください！</h3>
+  </div>
+  
+  <div class="chatbot-intro">
+  
+    <h1>お待たせいたしました！<br>今すぐkenkenとお会いしましょう！</h1>
+    <img src="images/kenken_maneki_crop.png" alt="" class="kenken_maneki">
+
+    <img src="images/arrow.png" class="arrow">
+    
+  </div>
+  
+
+
+  <div class="footer">
+    <p><small>ⓒkenken 2022 All Rights Reserved</small></p>
+  </div>
+
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="index.js"></script>
+
+
+  <audio loop autoplay>
+    <source src="/music/animation-childlike-claps-playful-cute-bright-happy-music-20852.mp3" type="audio/mpeg">
+  </audio>
+
+</body>
+
+
+</html>
