@@ -8,8 +8,8 @@ body{
   justify-content: center;
   margin: 0;
   padding: 0;
-  /* overflow-x: hidden;
-  max-width: 100%; */
+  overflow-x: hidden;
+  max-width: 100%;
 
 }
 
@@ -191,7 +191,7 @@ df-messenger{
 }
 
 
-@media screen and (max-width:1900px) {
+@media screen and (min-width:1800px) {
   .glass .glass-img img{
     width: 100vw;
     top: 60%;
@@ -223,10 +223,10 @@ df-messenger{
   font-style: normal;
   
 }
-@media screen and (min-width:1900px) {
+@media screen and (min-width:1800px) {
   .glass-text{
     top: 10%;
-    width: 100%;
+    width: 100vw;
     left: 0;
 
   }
