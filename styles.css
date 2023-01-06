@@ -8,6 +8,8 @@ body{
   justify-content: center;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+  max-width: 100%;
 
 }
 
@@ -182,15 +184,16 @@ df-messenger{
   width: 100vw;
   top: 400px;
   left: 0;
-  height: 950px;
+  height: 1200px;
   position: absolute;
 }
 
 
-@media screen and (max-width:2000px) {
+@media screen and (min-width:1500px) {
   .glass .glass-img img{
     width: 100vw;
     top: 40%;
+    height: 100%;
   }
 }
 
@@ -205,7 +208,7 @@ df-messenger{
 
 .glass-text{
   position: absolute;
-  top: 300px;
+  top: 450px;
   margin: 30% auto;
   left: 15%;
   z-index: 3;
