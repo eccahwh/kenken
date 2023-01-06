@@ -1,6 +1,6 @@
 body{
   height: 100%;
-  border: #e33c42 solid 30px;
+  width: 100vw;
   background-color:#faf49f;
 
   
@@ -10,10 +10,17 @@ body{
 
 }
 
+.body-border{
+  border: #e33c42 solid 30px;
+  height: 100%;  
+}
+
 
 @media only screen and (max-width: 667px) {
   body{
   display: block;
+  width: 100%;
+  overflow: hidden;
   }
 }
 
@@ -169,9 +176,10 @@ df-messenger{
 }
 
 .glass .glass-img img{
-  z-index: 2;
-  width: 1367px;
+  z-index: 1;
+  width: 100%;
   top: 600px;
+  left: 0;
   height: 950px;
   position: absolute;
 }
@@ -331,7 +339,7 @@ margin-bottom:30px ;
   bottom: 0;
 }
 
-.chatbot-intro .kenken_maneki{
+.maneki{
   width: 300px;
   position: relative;
   top: 60px;
