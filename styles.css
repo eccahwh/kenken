@@ -185,10 +185,10 @@ df-messenger{
 }
 
 
-@media screen and (min-width:1920px) {
+@media screen and (min-width:1500px) {
   .glass .glass-img img{
     width: 100vw;
-    top: 300px;
+    top: 100px;
   }
 }
 
