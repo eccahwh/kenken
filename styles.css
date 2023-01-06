@@ -10,6 +10,13 @@ body{
 
 }
 
+
+@media only screen and (max-width: 667px) {
+  body{
+  display: block;
+  }
+}
+
 .parallax {
   /* The image used */
   background-image: url(./images/bg-img.jpg);
@@ -72,7 +79,7 @@ df-messenger{
 }
 
 
-@media only screen and (max-width: 667px) {
+@media screen and (max-width: 667px) {
   .title h1{
     font-size: 30pt;
   }
