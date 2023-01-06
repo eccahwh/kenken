@@ -14,7 +14,7 @@ body{
   border: #e33c42 solid 30px;
   height: 100%;  
 }
-
+/* 
 
 @media only screen and (max-width: 667px) {
   body{
@@ -22,7 +22,7 @@ body{
   width: 100%;
   overflow: hidden;
   }
-}
+} */
 
 .parallax {
   /* The image used */
@@ -177,7 +177,7 @@ df-messenger{
 
 .glass .glass-img img{
   z-index: 1;
-  width: 100%;
+  width: 100vw;
   top: 600px;
   left: 0;
   height: 950px;
