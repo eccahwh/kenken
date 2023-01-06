@@ -184,6 +184,14 @@ df-messenger{
   position: absolute;
 }
 
+
+@media screen and (min-width:1920px) {
+  .glass .glass-img img{
+    width: 100vw;
+    top: 300px;
+  }
+}
+
 /* 
 .glass .tanjou-hand img{
   position: absolute;
