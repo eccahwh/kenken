@@ -195,6 +195,8 @@ df-messenger{
   .glass .glass-img img{
     width: 100vw;
     top: 60%;
+    height: 100%;
+
   }
 }
 
@@ -219,6 +221,7 @@ df-messenger{
   font-family: vdl-megamarupop-shadow, sans-serif;
   font-weight: 400;
   font-style: normal;
+  
 }
 @media screen and (min-width:1900px) {
   .glass-text{
