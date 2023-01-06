@@ -213,7 +213,7 @@ df-messenger{
   position: absolute;
   top: 20%;
   margin: 30% auto;
-  left: 15%;
+  /* left: 15%; */
   z-index: 3;
   color:#FF7A47;
   text-align: center;
@@ -226,8 +226,8 @@ df-messenger{
 @media screen and (min-width:1800px) {
   .glass-text{
     top: 10%;
-    width: 100vw;
-    left: 0;
+    width: 100%;
+    overflow: hidden;
 
   }
 }
