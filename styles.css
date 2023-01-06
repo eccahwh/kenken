@@ -183,17 +183,17 @@ df-messenger{
 
 .glass .glass-img img{
   z-index: 1;
-  width: 100vw;
+  width: 100%;
   top: 50%;
-  height: 1200px;
+  height: 1000px;
   position: absolute;
 }
 
 
 @media screen and (min-width:1800px) {
   .glass .glass-img img{
-    width: 100vw;
-    top: 60%;
+    width: 100%;
+    top: 65%;
     height: 100%;
 
   }
@@ -224,7 +224,7 @@ df-messenger{
 }
 @media screen and (min-width:1800px) {
   .glass-text{
-    top: 10%;
+    top: 20%;
     width: 100%;
     overflow: hidden;
 
@@ -272,7 +272,7 @@ df-messenger{
 
 .features{
   background-color:#faf49f;
-  padding: 100px;
+  padding: 300px;
 }
 
 .features h1{
