@@ -184,7 +184,7 @@ df-messenger{
 .glass .glass-img img{
   z-index: 1;
   width: 100vw;
-  top: 60%;
+  top: 40%;
   left: 0;
   height: 1200px;
   position: absolute;
@@ -194,7 +194,7 @@ df-messenger{
 @media screen and (min-width:1500px) {
   .glass .glass-img img{
     width: 100vw;
-    top: 45%;
+    top: 60%;
     height: 100%;
   }
 }
