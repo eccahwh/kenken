@@ -168,29 +168,30 @@ df-messenger{
     width: 450px;
     top: 200px;
   }
-
+/* 
   .glass .tanjou-hand img{
     top: 350px;
-  }
+  } */
 
 }
 
 .glass .glass-img img{
   z-index: 1;
   width: 100vw;
-  top: 600px;
+  top: 400px;
   left: 0;
   height: 950px;
   position: absolute;
 }
 
-.tanjou-hand img{
+/* 
+.glass .tanjou-hand img{
   position: absolute;
-  width: 100%;
-  scale:0.9;
-  top: -148px;
+  width: 100vw;
+  scale: 0.5;
+  top:-200px;
   z-index: 3;
-}
+} */
 
 .glass-text{
   position: absolute;
