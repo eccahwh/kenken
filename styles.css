@@ -1,18 +1,20 @@
 body{
   height: 100%;
-  width: 100vw;
+  width: 100vm;
   background-color:#faf49f;
 
   
   /*linear-gradient(0deg, #510197, #2503F2);*/
   justify-content: center;
   margin: 0;
+  padding: 0;
 
 }
 
 .body-border{
   border: #e33c42 solid 30px;
   height: 100%;  
+  width: 100vm;
 }
 /* 
 
