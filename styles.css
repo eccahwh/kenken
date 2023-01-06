@@ -188,6 +188,7 @@ df-messenger{
   left: 0;
   height: 1200px;
   position: absolute;
+  scale: 1.5;
 }
 
 
@@ -226,6 +227,8 @@ df-messenger{
 @media screen and (min-width:1900px) {
   .glass-text{
     top: 10%;
+    left: 0;
+
   }
 }
 .glass-text h3{
